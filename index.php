@@ -4,10 +4,7 @@ session_start();
 
 // Replace xxx with your actual client ID, secret, and redirect URI
 
-$clientId = 'xxx';
-$clientSecret = 'xxx';
-$redirectUri = 'https://xxx/callback.php'; // Update this to your redirect URI
-
+include("config.php");
 
 $scope = 'read'; // Define the scope as needed
 
