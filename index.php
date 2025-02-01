@@ -4,7 +4,7 @@ session_start();
 
 // Replace xxx with your actual client ID, secret, and redirect URI
 
-include("config.php");
+include("./config.php");
 
 $scope = 'read'; // Define the scope as needed
 
